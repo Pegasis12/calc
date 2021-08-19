@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="programa1.js"></script>  <!--linka o js-->
+    <title>Calculadora</title>
+</head>
+<body>
+<form>
+   <fieldset>
+    <br>
+   <label for="num1"></label>
+   <input class="colorir" type="number" id="num1" name="num1"  placeholder="Primeiro número" size="10"><br>
+   <label for="num2"></label>
+   <input class="colorir" type="number" id="num2" name="num2" placeholder="Segundo número" size="10"><br><br>
+   <input class="but" type="button" value="x" onclick="imprimeParagrafo(num1.value, num2.value, 1);">
+   <input class="but" type="button" value="+" onclick="imprimeParagrafo(num1.value, num2.value, 2);">
+   <input class="but" type="button" value="/" onclick="imprimeParagrafo(num1.value, num2.value, 3);">
+   <input class="but" type="button" value="-" onclick="imprimeParagrafo(num1.value, num2.value, 4);">
+   <input class="but" type="button" value="!" onclick="imprimeParagrafo(num1.value, num2.value, 5);"> <!--num2 com 0 pq n vai interferir-->
+   <input class="but" type="button" value="In" onclick="imprimeParagrafo(num1.value, num2.value, 6);">
+   <input class="but" type="button" value="Base2" onclick="imprimeParagrafo(num1.value, num2.value, 7);">
+   <input class="but" type="button" value="Binary" onclick="imprimeParagrafo(num1.value, num2.value, 8);">
+   <input class="but" type="button" value="Octal" onclick="imprimeParagrafo(num1.value, num2.value, 9);">
+   <input class="but" type="button" value="φ" onclick="imprimeParagrafo(num1.value, num2.value, 10);">
+   <input class="but" type="button" value="Sin" onclick="imprimeParagrafo(num1.value, num2.value, 11);">
+   <input class="but" type="button" value="Cos" onclick="imprimeParagrafo(num1.value, num2.value, 12);">
+   <input class="but" type="button" value="Tan" onclick="imprimeParagrafo(num1.value, num2.value, 13);">
+   <input class="but" type="button" value="√" onclick="imprimeParagrafo(num1.value, num2.value, 14);">
+   <input class="but" type="button" value="Log" onclick="imprimeParagrafo(num1.value, num2.value, 15);">
+   <input class="but" type="button" value="xʸ" onclick="imprimeParagrafo(num1.value, num2.value, 16);">
+   <input class="but" type="button" value="cpf" onclick="imprimeParagrafo(num1.value, num2.value, 17);">
+   <input class="apagar" class="but" type="button" value="X" onclick="apagar();">
+   <label id="mensagem"></label>
+   <p id="demo"><br></p><br>
+</fieldset>
+</form>
+</body>
+</html>

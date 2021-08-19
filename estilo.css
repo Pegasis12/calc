@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;                 
+    background-position: center;       
+    background-attachment: fixed;
+}
+
+
+label{
+    color: rgb(255, 0, 0);
+}
+
+p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+form{
+    text-align: center;
+}
+
+ul, li{
+    text-align: left;
+}
+
+.colorir{
+    background-color: rgb(211, 211, 208);
+}
+
+.colorir:hover{
+    background-color: white;
+}
+
+fieldset{
+    background-color: rgba(0,0,0,0.4);
+    width: 250px;
+    position: absolute;
+    top: 460px;
+    border-radius: 15px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.but{
+    background-color:rgb(202, 199, 199);
+    color: rgb(146, 59, 59);
+    cursor: pointer;
+    width: 55px;
+}
+
+input{
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+}
+
+.apagar{
+    cursor: pointer;
+    width: 50px;
+    background-color:rgb(238, 84, 84);
+}
+
+.apagar:hover{
+    background-color:rgb(255, 0, 0);
+}
+
+.but:hover{
+    background-color: rgb(255, 255, 255);
+}
